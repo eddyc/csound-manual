@@ -1,26 +1,26 @@
 {
-    "name": "csound-manual",
-    "version": "1.0.0",
-    "description": "A conversion of the current Docbook manual to use AsciiDoctor syntax and to include csound-web-player in opcode pages",
-    "main": "main.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/eddyc/csound-manual.git"
-    },
-    "author": "Edward Costello",
-    "license": "LGPL-3.0",
-    "bugs": {
-        "url": "https://github.com/eddyc/csound-manual/issues"
-    },
-    "homepage": "https://github.com/eddyc/csound-manual#readme",
-    "dependencies": {
-        "sax": "^1.2.1",
-        "csound-web-player": "github:eddyc/csound-web-player"
-    },
-    "devDependencies": {
-        "napa": "^2.3.0"
-    }
+  "name": "csound-manual",
+  "version": "1.0.0",
+  "description": "A conversion of the current Docbook manual to use AsciiDoctor syntax and to include csound-web-player in opcode pages",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyc/csound-manual.git"
+  },
+  "author": "Edward Costello",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/eddyc/csound-manual/issues"
+  },
+  "homepage": "https://github.com/eddyc/csound-manual#readme",
+  "dependencies": {
+    "csound-player": "github:eddyc/csound-player",
+    "sax": "^1.2.1"
+  },
+  "devDependencies": {
+    "napa": "^2.3.0"
+  }
 }
