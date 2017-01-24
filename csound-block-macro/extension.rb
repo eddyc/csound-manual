@@ -24,8 +24,8 @@ class CsoundBlockMacro < Extensions::BlockMacroProcessor
         # </div>
         # </div>)
 
-        html = %(<script src="../../node_modules/csound-web-player/node_modules/webcomponentsjs/lite.js"></script>
-        <link rel="import" href="../node_modules/csound-web-player/csound-player.html">
+        html = %(<script src="../csound-player/node_modules/webcomponentsjs/lite.js"></script>
+        <link rel="import" href="../csound-player/csound-player.html">
         <csound-player csd-file="../examples/#{target}"></csound-player>)
 
         create_pass_block parent, html, attrs, subs: nil
