@@ -11,11 +11,11 @@ Node, Ruby, Asciidoctor, csound-web-player, csound-engine
  git clone https://github.com/eddyc/csound-manual.git
  ``
 
-Get csound-web-player and csound-engine using npm
+Get csound-player and extract to root directory
+
 
 ``
-cd csound-manual &&
-npm install
+https://github.com/eddyc/csound-player/releases/download/v1.0/Csound-Player-1.0.zip
 ``
 
  Install Asciidoctor
@@ -30,4 +30,4 @@ npm install
 node main.js opcodes
 ``
 
-The output html files will be in the opcodes directory
+The output html files will be in the opcodes directory.
